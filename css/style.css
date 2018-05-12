@@ -1,0 +1,54 @@
+body{
+  font-family: 'Julius Sans One', sans-serif bold;
+  font-size: 20px;
+  animation: colorchange 50s;
+  -webkit-animation: colorchange 50s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+      0%   {background: #a1dbb2;
+            color:#a1dbb2 }
+      25%  {background: #fee5ad;
+            color:#fee5ad }
+      50%  {background: #faca66;
+            color:#faca66 }
+      75%  {background: #f7a541;
+            color:#f7a541 }
+      100% {background: #f45d4c;
+            color:#f45d4c }
+}
+
+@-webkit-keyframes colorchange{
+      0%   {background: #a1dbb2;
+            color:#a1dbb2 }
+      25%  {background: #fee5ad;
+            color:#fee5ad }
+      50%  {background: #faca66;
+            color:#faca66 }
+      75%  {background: #f7a541;
+            color:#f7a541 }
+      100% {background: #f45d4c;
+            color:#f45d4c }
+}
+#wrapper {
+  position: relative;
+  left: 50%;
+  width: 800px;
+  transform: translate(-400px, 50px);
+  
+  padding: 10px;
+  border-radius: 3px;
+  
+  background-color: white;
+   
+}
+
+.tweet{
+  height: 50px;
+  margin: 0px;
+}
+
+#new-quote-button {
+  height: 50px;
+  margin:0px;
+}
